@@ -1,0 +1,68 @@
+<!-- Estrutura principal do portfólio usando o HTML5 como foi requerido -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css"> <!-- link do CSS -->
+</head>
+<body>
+
+    <!-- Menu que estará visível em todas as seções(requisito) -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+<main>
+    <!-- Nessa seção de apresentação O Sobre mim trás as informações pessoais, hobbies e apresentação -->
+    
+    <section id="sobre" class="section-content">
+        <h1>Sobre Mim</h1>
+        <p>Olá! Me chamo Eliézer Carvalho. <br> Tenho 30 anos, costumo ter uma rotina de estudos(TI e English),como também assuntos variados. <br> Tenho hábito de práticar alguns esportes(Trail Run is my Favorite). <br> Gosto de viajar e ter momentos de qualidade com a minha Família.</p>
+    </section>
+
+    <!-- Formação e os cursos -->
+    <section id="formacao" class="section-content">
+        <h2>Formação</h2>
+        <p>Formação: Sou Estudante de Análise e Desenvolvimento de Sistemas no Centro Educacional Uninter</li>.</p>
+        <p>Cursos: Estou sempre em busca de novos conhecimentos aqui alguns curso que conclui:<br>Fundamentos básicos de Python, Lógica e Programação de Algoritmos.</p>
+        <p>Idiomas: Português(nativo), Inglês(básico).</p>
+    </section>
+
+    <!-- descrevendo o meu Portfólio -->
+    <section id="portfolio" class="section-content">
+        <h1>Portfólio</h1>        
+        <p>Links para trabalhos e projetos no GitHub.</p>
+        <a href="https://GitHub.com" target="_blank">Ver meus projetos no GitHub</a>
+    </section>
+
+    <!-- Esta parte é do formulario para me contatar -->
+    <section id="contato" class="section-content">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <textarea id="mensagem" placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>        
+</main>
+
+
+<!-- linha de codigo que faz a ponte com o javascript-->
+<script src="script.js"></script>
+
+</body>
+</html>
